@@ -1,0 +1,331 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+body.oscuro {
+    background-color: #121212;
+    color: #eaeaea;
+}
+
+
+/*header*/
+header {
+    background-color: #334E8C;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+nav {
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+nav li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#btn_tema {
+    border-radius: 5px;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: #334E8C;
+    color: whitesmoke;
+    margin-top: 25px;
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacte_footer {
+    background-color: #334E8C;
+    color: whitesmoke;
+    margin-top: 25px;
+    margin-top: 528px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*cataleg*/
+
+
+    /*main*/
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    h2 {
+        padding-top: 15px;
+        margin-bottom: -15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_cataleg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 10px;
+    }
+
+    .article_cataleg {
+        background-color: white;
+        width: 500px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_cataleg {
+        width: 250px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .div_article {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .p_cataleg {
+        margin: 0;
+        gap: 50px;
+    }
+
+/*fitxa*/
+
+    .article_fitxa {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+
+    .img_fitxa {
+        width: 600px;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+
+    .columna_der {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+
+    .trailer_uncharted1 {
+        width: 560px;
+        height: 315px;
+        margin-top: 40px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+
+    .trailer_uncharted1 video {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .div_descripcion_juego {
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        width: 520px;
+    }
+
+
+    .tabla_controles {
+        width: 1300px;
+        border-collapse: collapse;
+        background-color: white;
+        margin-top: 20px;
+        margin: 20px auto;
+        border-collapse: collapse;
+        box-sizing: border-box;
+    }
+
+
+    .cabecera {
+        background-color: #334E8C;
+        color: whitesmoke;
+    }
+
+
+    .celda {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #DDDDDD;
+    }
+
+
+    .fila {
+        background-color: white;
+    }
+
+
+    .fila2 {
+        background-color: whitesmoke;
+    }
+
+
+/*contacte*/
+
+
+.seccion_contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+.formulario_contacto {
+    background-color: white;
+    width: 80%;
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.formulario_contacto label {
+    font-weight: bold;
+}
+
+
+.formulario_contacto input {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.formulario_contacto textarea {
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: vertical;
+}
+
+
+.formulario_contacto button {
+    background-color: #334E8C;
+    color: whitesmoke;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.formulario_contacto button:hover {
+    background-color: #263B6A;
+}
+
+
+/* css js */
+
+/* estoc baix */
+
+.estoc_baix {
+  border: 2px solid #c0392b;
+}
+
+/* formulari js */
+
+.error {
+    border: 2px solid #c0392b;
+}
+
+.missatge_error {
+    color: #c0392b;
+    margin: 0;
+    font-size: 14px;
+}
+
+.targeta_resum {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* modo oscuro */
+
+body.oscuro .article_cataleg,
+body.oscuro .div_descripcion_juego,
+body.oscuro .formulario_contacto,
+body.oscuro .tabla_controles,
+body.oscuro .fila {
+    background-color: #242424;
+    color: #eaeaea;
+}
+
+body.oscuro .fila2 {
+    background-color: #333333;
+    color: #eaeaea;
+}
+
+body.oscuro .targeta_resum {
+    background-color: #242424;
+    color: #eaeaea;
+}
+
+/* cataleg_json */
+.zona_fitxer { display: flex; justify-content: center; gap: 10px; padding: 20px; }
+.comptador_json { text-align: center; margin: 0; }
+.esgotat { border: 2px solid #c0392b; opacity: 0.7; }
+.text_esgotat { color: #c0392b; font-weight: bold; margin: 0; }
