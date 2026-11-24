@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusivos Play</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <input type="text" id="buscador" placeholder="Busca un joc...">
+        <select id="filtre_plataforma">
+            <option value="">Totes</option>
+            <option value="PlayStation3">PlayStation 3</option>
+            <option value="PlayStation4">PlayStation 4</option>
+            <option value="PlayStation5">PlayStation 5</option>
+        </select>
+        <h1>Exclusivos Play</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Catàleg</a></li>
+                <li><a href="fitxa.html">Fitxa de joc</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+            </ul>
+        </nav>
+        <button id="btn_tema">Canviar tema</button>
+    </header>
+
+    <main>
+        <div class="zona_fitxer">
+           <label for="fitxer">Fitxer del catàleg (.json):</label>
+           <input type="file" id="fitxer" accept=".json">
+       </div>
+       <h2 id="titol_botiga"></h2>
+       <p class="comptador_json" id="comptador_json"></p>
+       <section class="section_cataleg" id="cataleg_json"></section>
+    </main>
+    <footer>
+        <p>Laia Marin</p>
+    </footer>
+</body>
+</html>
